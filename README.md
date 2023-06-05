@@ -10,7 +10,11 @@
 
 ## 📖 About the Challenge
 
-The Striver SDE Sheet Challenge is a comprehensive program designed to strengthen understanding of data structures, algorithms, and key coding concepts. It provides a roadmap for preparation and covers a wide range of interview questions, ensuring thorough learning and readiness for internships and job interviews at top tech companies. 💡💻
+
+![1654591525327](https://user-images.githubusercontent.com/66811279/172405430-c58b25e6-5826-46d2-aa53-68e32359d32a.jpg)
+ - The Striver SDE Sheet Challenge is a comprehensive program designed to strengthen understanding of data structures, algorithms, and key coding concepts. It provides a roadmap for preparation and covers a wide range of interview questions, ensuring thorough learning and readiness for internships and job interviews at top tech companies. 💡💻
+ - SDE Sheet Link : [Striver's SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
+ - Check Rules/Prizes/All-Info of this challenge : [About Challenge](https://takeuforward.org/interviews/strivers-sde-sheet-challenge-2023/)
 
 ## 📂 Repository Contents
 
