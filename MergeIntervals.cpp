@@ -8,21 +8,31 @@
 
 vector<vector<int>> mergeIntervals(vector<vector<int>> &intervals)
 {
-    // Write your code here.
-    vector<vector<int>> mergedIntervals;
-        if(intervals.size()==0){
-            return mergedIntervals;
+    int n = intervals.size();
+    sort(intervals.begin(), intervals.end());//sorting to make interval elements closer
+    vector<vector<int>> ans;
+
+    for(int i = 0; i < n; i++)
+    {
+        //if it cannot be merged
+        if(ans.empty() || ans.back()[1] < intervals[i][0])
+        {
+            ans.push_back(intervals[i]); //interval is appended to ans.
         }
-        sort(intervals.begin(),intervals.end());
-        vector<int> tempInterval=intervals[0];
-        for(auto it: intervals){
-            if(it[0]<=tempInterval[1]){
-                tempInterval[1]=max(it[1],tempInterval[1]);
-            }else{
-                mergedIntervals.push_back(tempInterval);
-                tempInterval=it;
-            }
-        }
-        mergedIntervals.push_back(tempInterval);
-        return mergedIntervals;
+
+        else
+        {
+        
+            ans.back()[1] = max(ans.back()[1] , intervals[i][1]);//checks 
+        /* ans.back()[1] refers to the second element of the last sub-vector in the ans vector.
+
+Let's break it down step by step:
+
+ans is a vector of vectors (vector<vector<int>>), representing a 2D vector.
+ans.back() returns a reference to the last element in the ans vector, which itself is a sub-vector.
+ans.back()[1] accesses the second element (index 1) of that last sub-vector.
+      */  }
+    }
+
+    return ans;
 }
