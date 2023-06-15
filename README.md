@@ -2,7 +2,11 @@
 <h1 align="center">Striver SDE Sheet Challenge Repository</h1>
 
 <p align="center">Welcome to my repository for the <strong>Striver SDE Sheet Challenge</strong>! 🚀</p>
-<p align="center">This repository contains my solutions and progress for the challenge, where I aim to enhance my coding skills, improve problem-solving abilities, and excel in technical interviews.</p>
+<p align="center">This repository contains my solutions and progress for the challenge, where I aim to enhance my coding skills, improve problem-solving abilities, and excel in technical interviews.
+<br>
+<br>
+DO STAR MY REPO AND FOLLOW ME!
+</p>
 
 <p align="center">
   <img src="path/to/your/repository/demo.gif" alt="Repository Demo" width="600">
@@ -38,7 +42,7 @@ Feel free to explore this repository to:
 
 If you're also participating in the Striver SDE Sheet Challenge or have any questions, I'd love to connect and learn from your journey as well. Let's support each other and share our experiences!
 
-DO STAR MY REPO AND FOLLOW ME!
+
 
 You can find me on [LinkedIn](https://www.linkedin.com/in/ayushi9/) or reach out to me via [Twitter](https://twitter.com/ayushi912). Let's level up together and ace those technical interviews! 🎉
 
